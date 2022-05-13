@@ -93,14 +93,14 @@ public class FTBLibActions
 				ButtonInvLMRenderer renderer = new ButtonInvLMRenderer(495830, e.gui);
 				e.buttonList.add(renderer);
 				
-				int xSize = 176;
+				int xSize = 338;
 				int ySize = 166;
 				int buttonX = -17;
 				int buttonY = 8;
 				
 				if(e.gui instanceof GuiContainerCreative)
 				{
-					xSize = 195;
+					xSize = 357;
 					ySize = 136;
 					buttonY = 6;
 				}
