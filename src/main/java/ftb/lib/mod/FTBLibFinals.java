@@ -1,7 +1,5 @@
 package ftb.lib.mod;
 
-import ftb.lib.Tags;
-
 public class FTBLibFinals
 {
 	public static final String MOD_ID = Tags.MOD_ID;

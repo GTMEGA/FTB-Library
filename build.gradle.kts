@@ -10,8 +10,15 @@ minecraft_fp {
         name = "FTBLib"
         rootPkg = "ftb.lib"
     }
+
     tokens {
-        tokenClass = "Tags"
+        tokenClass = "mod.Tags"
+    }
+
+    api {
+        packages = listOf("ftb.lib.api", "latmod.lib")
+        packagesNoRecurse = listOf("ftb.lib")
+        ignoreRootPkg = true
     }
 
     publish {
